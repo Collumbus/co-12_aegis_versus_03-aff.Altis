@@ -5,7 +5,7 @@ overviewText = "PMC Versus eliminates the last of Nekrón Chélia and acquires e
 overviewPicture = "overview_02.paa"; // Mission screenshot
 
 // Loading:
-onLoadName = "Metamorphoses"; // Mission name
+onLoadName = "Afflamus"; // Mission name
 onLoadMission = "Eliminate the last of the local extremists and acquire explosives.";
 loadScreen = "aegislogo.paa"; // Loading screen pip
 
