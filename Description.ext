@@ -1,0 +1,45 @@
+author = "Fuiba";
+
+// Overview:
+overviewText = "PMC Versus eliminates the last of Nekrón Chélia and acquires explosives.";
+overviewPicture = "overview_02.paa"; // Mission screenshot
+
+// Loading:
+onLoadName = "Metamorphoses"; // Mission name
+onLoadMission = "Eliminate the last of the local extremists and acquire explosives.";
+loadScreen = "versuslogo.paa"; // Loading screen pip
+
+doneKeys[] = {"co10_pmcvcro02"};
+
+minScore=0;
+avgScore=1000;
+maxScore=14000;
+
+#include "aegis_ace_settings.hpp"
+
+class CfgWorlds
+{
+		// Loading texts displayed on the bottom of the loading screen (picked randomly)
+		loadingTexts[]=
+		{
+			"PMC Versus was founded in 1997.",
+			"Stratis is of volcanic origin, with many rocks and crevices and Versus."
+		};
+};
+
+class Header
+{
+	gameType = Coop;
+	minPlayers = 1;
+	maxPlayers = 12;
+};
+
+class CfgDebriefing
+{  
+	class End1
+	{
+		title = "Mission Completed";
+		subtitle = "";
+		description = "PMC Versus has eliminated the last of the Nekron Chelia forces and completely assumed their identity. The coming events will be associated with the local extremists without any suspicion of PMC Versus involvement. Corona will be planning on how to use the newly acquired explosives.";
+	};
+};
