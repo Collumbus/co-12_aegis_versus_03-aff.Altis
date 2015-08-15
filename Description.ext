@@ -7,7 +7,7 @@ overviewPicture = "overview_02.paa"; // Mission screenshot
 // Loading:
 onLoadName = "Metamorphoses"; // Mission name
 onLoadMission = "Eliminate the last of the local extremists and acquire explosives.";
-loadScreen = "versuslogo.paa"; // Loading screen pip
+loadScreen = "aegislogo.paa"; // Loading screen pip
 
 doneKeys[] = {"co10_pmcvcro02"};
 
