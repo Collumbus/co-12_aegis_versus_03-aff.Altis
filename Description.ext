@@ -1,7 +1,7 @@
-author = "Fuiba";
+author = "Fuiba - Editada por Collumbus";
 
 // Overview:
-overviewText = "PMC Versus eliminates the last of Nekrón Chélia and acquires explosives.";
+overviewText = "PMC Aegis eliminates the last of Nekrón Chélia and acquires explosives.";
 overviewPicture = "overview_02.paa"; // Mission screenshot
 
 // Loading:
@@ -24,65 +24,51 @@ class CfgFunctions {
 };
 
 class CfgLoadouts {
-//Team Lider
-  class B_G_Soldier_TL_F {
-    weapons[] = {"R3F_HK416M_DES","rhsusf_weap_m1911a1"};
-    magazines[] = {""};
-    items[] = {""};
-    addItemsToVest[] = {"Chemlight_blue","ACE_EarPlugs","SmokeShell","SmokeShell","SmokeShellred","HandGrenade","HandGrenade","ACE_microDAGR","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_TRACER_HK416","R3F_30Rnd_556x45_TRACER_HK416","rhsusf_mag_7x45acp_MHP"};
-    addItemsToUniform[] = {"ACE_fieldDressing","ACE_packingBandage","ACE_morphine","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","ACRE_PRC152_ID_2"};
-		primaryWeaponAttachments[] = {"optic_ACO_grn"};
+  //Team Lider
+    class B_G_Soldier_TL_F {
+      weapons[] = {"R3F_HK416M_DES","rhsusf_weap_m1911a1"};
+      magazines[] = {"Chemlight_blue","SmokeShell","SmokeShell","SmokeShellred","HandGrenade","HandGrenade","rhs_30Rnd_545x39_AK","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_TRACER_HK416","R3F_30Rnd_556x45_TRACER_HK416","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","ACRE_PRC152_ID_2"};
+      items[] = {"ACE_EarPlugs","ACE_microDAGR","ACE_fieldDressing","ACE_packingBandage","ACE_morphine"};
+      primaryWeaponAttachments[] = {"optic_ACO_grn","R3F_SILENCIEUX_HK416_DES","R3F_LAMPE_SURB_DES"};
+    };
+  //Granadier
+    class B_G_Soldier_GL_F {
+      weapons[] = {"R3F_HK416M_M203_DES","rhsusf_weap_m1911a1"};
+      magazines[] = {"Chemlight_blue","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","HandGrenade","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_TRACER_HK416","R3F_30Rnd_556x45_TRACER_HK416","rhsusf_mag_7x45acp_MHP"};
+      items[] = {"ACE_EarPlugs","ACE_fieldDressing","ACE_packingBandage","ACE_morphine"};
+  		primaryWeaponAttachments[] = {"optic_ACO_grn","R3F_SILENCIEUX_HK416_DES","R3F_LAMPE_SURB_DES"};
+    };
+  //Autorifleman
+    class B_G_Soldier_AR_F {
+      weapons[] = {"rhs_weap_m240B_CAP","rhsusf_weap_m1911a1"};
+      magazines[] = {"Chemlight_blue","SmokeShell","SmokeShell","SmokeShellred","HandGrenade","HandGrenade","rhsusf_50Rnd_762x51","rhsusf_50Rnd_762x51","rhsusf_50Rnd_762x51","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP"};
+      items[] = {"ACE_EarPlugs","ACE_fieldDressing","ACE_packingBandage","ACE_morphine"};
+  		primaryWeaponAttachments[] = {"optic_ACO_grn","R3F_SILENCIEUX_HK416_DES","R3F_LAMPE_SURB_DES"};
+    };
+  //Demolition Expert
+    class B_G_Soldier_exp_F {
+      weapons[] = {"R3F_HK416M_DES","rhsusf_weap_m1911a1","R3F_AT4CS"};
+      backpack = "B_TacticalPack_oli";
+      magazines[] = {"Chemlight_blue","SmokeShell","SmokeShell","SmokeShellred","HandGrenade","HandGrenade","APERSMine_Range_Mag","rhsusf_m112_mag","IEDLandSmall_Remote_Mag","APERSMine_Range_Mag","APERSMine_Range_Mag","DemoCharge_Remote_Mag","APERSTripMine_Wire_Mag","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_TRACER_HK416","R3F_30Rnd_556x45_TRACER_HK416","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP"};
+      items[] = {"ACE_EarPlugs","ACE_fieldDressing","ACE_packingBandage","ACE_morphine","MineDetector","ACE_DefusalKit","ACE_Clacker"};
+  		primaryWeaponAttachments[] = {"optic_ACO_grn","R3F_SILENCIEUX_HK416_DES","R3F_LAMPE_SURB_DES"};
+    };
+  //Marksman
+    class B_G_Soldier_M_F {
+      weapons[] = {"R3F_HK417M_DES","rhsusf_weap_m1911a1"};
+      magazines[] = {"Chemlight_blue","SmokeShell","SmokeShell","SmokeShellred","HandGrenade","HandGrenade","R3F_20Rnd_762x51_HK417","R3F_20Rnd_762x51_HK417","R3F_20Rnd_762x51_HK417","R3F_20Rnd_762x51_HK417","R3F_20Rnd_762x51_TRACER_HK417","R3F_20Rnd_762x51_TRACER_HK417","rhsusf_mag_7x45acp_MHP","R3F_20Rnd_762x51_HK417","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP",};
+      items[] = {"ACE_EarPlugs","ACE_fieldDressing","ACE_packingBandage","ACE_morphine"};
+      primaryWeaponAttachments[] = {"optic_MRCO","R3F_BIPIED_HK417_DES","R3F_SILENCIEUX_HK417_DES","R3F_LAMPE_SURB_DES"};
+    };
+  //Medic
+    class B_G_medic_F {
+      weapons[] = {"R3F_HK416M_DES","rhsusf_weap_m1911a1"};
+      backpack = "B_TacticalPack_oli";
+      magazines[] = {"Chemlight_blue","SmokeShell","SmokeShell","SmokeShellred","HandGrenade","HandGrenade","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_TRACER_HK416","R3F_30Rnd_556x45_TRACER_HK416","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP"};
+      items[] = {"ACE_EarPlugs","ACE_fieldDressing","ACE_packingBandage","ACE_morphine","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_plasmaIV_500","ACE_plasmaIV_500","ACE_bloodIV_500","ACE_bloodIV_500","ACE_salineIV_500","ACE_salineIV_500","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_personalAidKit","ACE_surgicalKit"};
+      primaryWeaponAttachments[] = {"optic_ACO_grn","R3F_SILENCIEUX_HK416_DES","R3F_LAMPE_SURB_DES"};
+    };
   };
-//Granadier
-  class B_G_Soldier_GL_F {
-    weapons[] = {"R3F_HK416M_M203_DES","rhsusf_weap_m1911a1"};
-    magazines[] = {""};
-    items[] = {""};
-    addItemsToVest[] = {"Chemlight_blue","ACE_EarPlugs","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","HandGrenade","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_TRACER_HK416","R3F_30Rnd_556x45_TRACER_HK416","rhsusf_mag_7x45acp_MHP"};
-    addItemsToUniform[] = {"ACE_fieldDressing","ACE_packingBandage","ACE_morphine","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","ACRE_PRC152_ID_2"};
-		primaryWeaponAttachments[] = {"optic_ACO_grn"};
-  };
-//Autorifleman
-  class B_G_Soldier_AR_F {
-    weapons[] = {"rhs_weap_m240B_CAP","rhsusf_weap_m1911a1"};
-    items[] = {""};
-    magazines[] = {""};
-    addItemsToVest[] = {"Chemlight_blue","ACE_EarPlugs","SmokeShell","HandGrenade","rhsusf_50Rnd_762x51","rhsusf_50Rnd_762x51","rhsusf_50Rnd_762x51","rhsusf_mag_7x45acp_MHP"};
-    addItemsToUniform[] = {"ACE_fieldDressing","ACE_packingBandage","ACE_morphine","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","ACRE_PRC152_ID_2"};
-		primaryWeaponAttachments[] = {"optic_ACO_grn"};
-  };
-//Demolition Expert
-  class B_G_Soldier_exp_F {
-    weapons[] = {"R3F_HK416M_DES","rhsusf_weap_m1911a1","R3F_AT4CS"};
-    items[] = {""};
-    magazines[] = {""};
-    backpack = "B_TacticalPack_oli";
-    addItemsToVest[] = {"Chemlight_blue","ACE_EarPlugs","SmokeShell","SmokeShellred","HandGrenade","HandGrenade","APERSMine_Range_Mag",,"R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_TRACER_HK416","R3F_30Rnd_556x45_TRACER_HK416","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP"};
-    addItemsToUniform[] = {"ACE_fieldDressing","ACE_packingBandage","ACE_morphine","ACE_DefusalKit","ACE_Clacker","rhsusf_mag_7x45acp_MHP","ACRE_PRC152_ID_2"};
-    addItemsToBackpack[] = {"MineDetector","rhsusf_m112_mag","IEDLandSmall_Remote_Mag","APERSMine_Range_Mag","APERSMine_Range_Mag","DemoCharge_Remote_Mag","APERSTripMine_Wire_Mag"};
-		primaryWeaponAttachments[] = {"optic_ACO_grn"};
-  };
-//Marksman
-  class B_G_Soldier_M_F {
-    weapons[] = {"R3F_HK417M_DES","rhsusf_weap_m1911a1"};
-    items[] = {""};
-    magazines[] = {""};
-    addItemsToVest[] = {"Chemlight_blue","ACE_EarPlugs","SmokeShell","HandGrenade","R3F_20Rnd_762x51_HK417","R3F_20Rnd_762x51_HK417","R3F_20Rnd_762x51_HK417","R3F_20Rnd_762x51_HK417","R3F_20Rnd_762x51_TRACER_HK417","R3F_20Rnd_762x51_TRACER_HK417","rhsusf_mag_7x45acp_MHP"};
-    addItemsToUniform[] = {"ACE_fieldDressing","ACE_packingBandage","ACE_morphine","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","R3F_20Rnd_762x51_HK417","ACRE_PRC152_ID_2"};
-    primaryWeaponAttachments[] = {"optic_MRCO","R3F_BIPIED_HK417_DES"};
-  };
-//Medic
-  class B_G_medic_F {
-    weapons[] = {"R3F_HK416M_DES","rhsusf_weap_m1911a1"};
-    items[] = {""};
-    magazines[] = {""};
-    backpack = "B_TacticalPack_oli";
-    addItemsToVest[] = {"Chemlight_blue","ACE_EarPlugs","SmokeShell","SmokeShellred","HandGrenade","HandGrenade",,"R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_TRACER_HK416","R3F_30Rnd_556x45_TRACER_HK416","rhsusf_mag_7x45acp_MHP"};
-    addItemsToUniform[] = {"ACE_fieldDressing","ACE_packingBandage","ACE_morphine","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","ACRE_PRC152_ID_2"};
-    addItemsToBackpack[] = {"ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_packingBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_tourniquet","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_plasmaIV_500","ACE_plasmaIV_500","ACE_bloodIV_500","ACE_bloodIV_500","ACE_salineIV_500","ACE_salineIV_500","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_quikclot","ACE_personalAidKit","ACE_surgicalKit"};
-    primaryWeaponAttachments[] = {"optic_ACO_grn"};
-  };
-};
 
 
 class CfgWorlds
@@ -90,8 +76,8 @@ class CfgWorlds
 		// Loading texts displayed on the bottom of the loading screen (picked randomly)
 		loadingTexts[]=
 		{
-			"PMC Versus was founded in 1997.",
-			"Stratis is of volcanic origin, with many rocks and crevices and Versus."
+			"PMC Aegis was founded in 1997.",
+			"Stratis is of volcanic origin, with many rocks and crevices and Aegis."
 		};
 };
 
@@ -108,6 +94,6 @@ class CfgDebriefing
 	{
 		title = "Mission Completed";
 		subtitle = "";
-		description = "PMC Versus has eliminated the last of the Nekron Chelia forces and completely assumed their identity. The coming events will be associated with the local extremists without any suspicion of PMC Versus involvement. Corona will be planning on how to use the newly acquired explosives.";
+		description = "PMC Aegis has eliminated the last of the Nekron Chelia forces and completely assumed their identity. The coming events will be associated with the local extremists without any suspicion of PMC Versus involvement. Corona will be planning on how to use the newly acquired explosives.";
 	};
 };
