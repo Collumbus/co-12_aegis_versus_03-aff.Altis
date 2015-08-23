@@ -6,7 +6,6 @@ class Mission
 		"a3_map_altis",
 		"A3_Modules_F_Marta",
 		"a3_characters_f",
-		"A3_Armor_F_EPB_APC_tracked_03",
 		"A3_Modules_F_Intel",
 		"A3_Structures_F_Mil_Shelters",
 		"A3_Structures_F_EPA_Mil_Scrapyard",
@@ -67,7 +66,7 @@ class Mission
 		forecastGust=0.38999999;
 		wavesForced=1;
 		windForced=1;
-		year=2024;
+		year=2015;
 		month=10;
 		day=21;
 		hour=22;
