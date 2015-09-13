@@ -20,11 +20,6 @@ maxScore=14000;
 //AEGIS Config
 #include "aegis\functions.hpp"
 
-//Loadouts
-class CfgFunctions {
-  #include "modules\a3g-loadout\CfgFunctions.hpp"
-};
-
 class CfgLoadouts {
   //Team Lider
     class B_G_Soldier_TL_F {
