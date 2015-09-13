@@ -2,12 +2,14 @@ author = "Fuiba - Editada por Collumbus";
 
 // Overview:
 overviewText = "PMC Aegis eliminates the last of Nekrón Chélia and acquires explosives.";
-overviewPicture = "overview_02.paa"; // Mission screenshot
+overviewPicture = "images\overview_02.paa"; // Mission screenshot
 
 // Loading:
 onLoadName = "Afflamus"; // Mission name
 onLoadMission = "Eliminate the last of the local extremists and acquire explosives.";
-loadScreen = "aegislogo.paa"; // Loading screen pip
+loadScreen = "images\aegislogo.paa"; // Loading screen pip
+enableDebugConsole = 1;
+respawn            = 4;
 
 doneKeys[] = {"co10_pmcvcro02"};
 
@@ -15,8 +17,8 @@ minScore=0;
 avgScore=1000;
 maxScore=14000;
 
-//ACE Config
-#include "aegis_ace_settings.hpp"
+//AEGIS Config
+#include "aegis\functions.hpp"
 
 //Loadouts
 class CfgFunctions {

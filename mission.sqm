@@ -2060,7 +2060,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=14;
+		items=15;
 		class Item0
 		{
 			position[]={7250.5088,82.366951,22347.832};
@@ -2285,6 +2285,27 @@ class Mission
 			expActiv="[derelictus1, derelictus2, derelictus3, derelictus4, derelictus5] join perditus1; publicVariable ""join_order""; perditus1 sideChat ""Derelictus. Perditus actual. I'm taking command of Derelictus. Out.""";
 			class Effects
 			{
+			};
+		};
+		class Item14
+		{
+			position[]={7465.2607,88.156631,22116.633};
+			a=0;
+			b=0;
+			activationBy="LOGIC";
+			timeoutMin=2;
+			timeoutMid=2;
+			timeoutMax=2;
+			interruptable=1;
+			age="UNKNOWN";
+			text="Cash";
+			name="Cash";
+			expCond="obj1 == 1 AND obj3 == 1;";
+			expActiv="72000 call aegis_fnc_makePayment;";
+			class Effects
+			{
+				titleType="TEXT";
+				title="Mission accoplished.";
 			};
 		};
 	};
