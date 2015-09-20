@@ -44,9 +44,9 @@ class CfgLoadouts {
     };
   //Demolition Expert
     class B_G_Soldier_exp_F {
-      weapons[] = {"R3F_HK416M_DES","rhsusf_weap_m1911a1","R3F_AT4CS"};
+      weapons[] = {"R3F_HK416M_DES","rhsusf_weap_m1911a1","rhs_weap_M136"};
       backpack = "B_TacticalPack_oli";
-      magazines[] = {"Chemlight_blue","SmokeShell","SmokeShell","SmokeShellred","HandGrenade","HandGrenade","APERSMine_Range_Mag","rhsusf_m112_mag","IEDLandSmall_Remote_Mag","APERSMine_Range_Mag","APERSMine_Range_Mag","DemoCharge_Remote_Mag","APERSTripMine_Wire_Mag","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_TRACER_HK416","R3F_30Rnd_556x45_TRACER_HK416","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP"};
+      magazines[] = {"Chemlight_blue","SmokeShell","SmokeShell","SmokeShellred","HandGrenade","HandGrenade","APERSMine_Range_Mag","DemoCharge_Remote_Mag","IEDLandSmall_Remote_Mag","APERSMine_Range_Mag","APERSMine_Range_Mag","DemoCharge_Remote_Mag","APERSTripMine_Wire_Mag","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_HK416","R3F_30Rnd_556x45_TRACER_HK416","R3F_30Rnd_556x45_TRACER_HK416","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP"};
       items[] = {"ACE_EarPlugs","ACE_fieldDressing","ACE_packingBandage","ACE_morphine","MineDetector","ACE_DefusalKit","ACE_Clacker","ACE_Flashlight_MX991"};
   		primaryWeaponAttachments[] = {"optic_ACO_grn","R3F_SILENCIEUX_HK416_DES","R3F_LAMPE_SURB_DES"};
     };
@@ -66,12 +66,6 @@ class CfgLoadouts {
       primaryWeaponAttachments[] = {"optic_ACO_grn","R3F_SILENCIEUX_HK416_DES","R3F_LAMPE_SURB_DES"};
     };
   };
-
-
-
-
-
-
 
 class CfgWorlds
 {
