@@ -50,7 +50,7 @@ class Mission
 	randomSeed=2596867;
 	class Intel
 	{
-		briefingName="PMCVCRO-03: Afflamus";
+		briefingName="AEGISCRO-03: Afflamus";
 		overviewText="PMC AEGIS eliminate the remaining Nekrón Chélia fighters.";
 		resistanceWest=0;
 		startWeather=0.23999999;
